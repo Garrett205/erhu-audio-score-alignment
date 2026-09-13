@@ -1,0 +1,17 @@
+{
+  "source_of_truth": "src/pipeline module constants; this file is an audited index, not a parameter override",
+  "mel_best_admissible": true,
+  "external_readout_W_ms": 150,
+  "start_gate": {
+    "cut_hz": 1800,
+    "peri_th": 0.01,
+    "ok_fr": 40,
+    "back_fr": 40
+  },
+  "end_gate": {
+    "cut_hz": 1800,
+    "peri_th": 0.01,
+    "ok_fr": 30,
+    "back_fr": -28
+  }
+}

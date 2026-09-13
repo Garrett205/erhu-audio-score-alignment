@@ -1,0 +1,15 @@
+torchcrepe==0.0.24
+df0-pitch==1.0.1
+numpy==2.2.6
+scipy==1.15.2
+librosa==0.11.0
+matplotlib==3.10.8
+pandas==2.3.3
+music21==9.9.1
+openpyxl==3.1.5
+tqdm==4.67.3
+# df0-pitch provides the df0 import package (module version 0.1.1).
+# PyTorch: install 2.6.0+cu124 separately using the frozen CUDA wheel index.
+# SoundFile: historical import=0.14.0, distribution metadata=0.13.1;
+# preserve this discrepancy as evidence, not an invented consistent pin.
+soundfile==0.13.1

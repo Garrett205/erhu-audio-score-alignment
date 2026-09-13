@@ -1,0 +1,8 @@
+name: erhu-paper
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.19
+  - pip
+# Install the CUDA-specific PyTorch wheel and requirements separately (README).
+# This is a minimal bootstrap specification, not a newly verified frozen lock.

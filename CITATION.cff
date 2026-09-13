@@ -1,0 +1,8 @@
+# Draft: publication author/DOI metadata was not provided; fill it before citation export.
+# Intentionally not presented as a validated final CFF record.
+cff-version: 1.2.0
+message: "Publication metadata pending. Cite the manuscript title; see README."
+title: "Reliability-Aware Audio-to-Score Event Alignment for Erhu Performance Analysis"
+type: software
+version: "1.0-electronics-submission"
+license: MIT

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "V17_MINOR_FINAL_20260913/supplement/source/baselines_external/STRADI_THEGLUE_12P_20260910/prepare_symbolic.py",
+    "source_sha256": "bbf71dab6d6adb0df991bd07b8fed6d60fe5c3e9e1369e019f12938d2a0c498b",
+    "destination": "baselines/alignment/prepare_external.py",
+    "output_sha256": "2475da551de8d917c7bdfb89fa1fa7aef573bd056fc25a9598303020953bb1a8",
+    "changes": "Array dtype/field assignment and ordered identity checks retained; input paths generalized; historical piece-specific score editing excluded. Uses bundled score loader."
+  },
+  {
+    "source": "baselines_external/STRADI_THEGLUE_12P_20260910/09_readonly_audit/audit.py",
+    "source_sha256": "2f57c12059ec92886594c2db0fb5297333a6bd9e0048ec87a4ba0c9ce69892c6",
+    "destination": "baselines/alignment/prepare_native_positions.py",
+    "output_sha256": "5f8036848681dde5bc8ff87bb38ea0c28d22f60b9a4a560a2679b58275419147",
+    "changes": "Native path-to-time mapping/export statements extracted; unrelated historical diagnostics excluded."
+  },
+  {
+    "source": "V17_MINOR_FINAL_20260913/supplement/source/baselines_external/STRADI_THEGLUE_12P_20260910/10_event_local_anchor/anchor_readout.py",
+    "source_sha256": "bf7a6481c72974e90c1b48c241c6e4a8a1fca93fe92a77a4d9e94a9080a09ac9",
+    "destination": "baselines/alignment/run_readout.py",
+    "output_sha256": "6819126720d2f7d3aa205d4d5d09f22d5ee946f2c06f869055be97e26714f0e3",
+    "changes": "Portable input assembly for unchanged evaluate function and fixed 150-ms window; no window search or manuscript modification."
+  }
+]
